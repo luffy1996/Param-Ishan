@@ -38,4 +38,8 @@ $module load (name)
 
 4)To unload a module <br />
 $module unload (name)
+
+###NOTE
+1)In case you want to use GPU, you have to do a GPU login. Login takes place in a simple loop of CPU -> GPU -> MIC. Suppose you get a MIC login , you need to exit it. The next time you login , you will have a CPU login . In this manner the login works. 
+2)In case you get stuck up after MIC login, stop(CTRL + C) it and try once more.
  
