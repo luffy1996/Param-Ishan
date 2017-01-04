@@ -27,10 +27,10 @@ $sinfo
 
 ##Environment Modules
 
-1)All the modules available<br /> 
+1)Modules available<br /> 
 $module avail
 
-2)Modules already loaded to your account<br />
+2)Modules loaded to your account<br />
 $module list
 
 3)To load a module <br />
