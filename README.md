@@ -1,6 +1,6 @@
 #SuperComputer Script
 
-You can refer to this [link]() for more details .
+You can refer to this [link](https://rohanrajblogs.blogspot.in/2017/01/supercomputer-param-ishan.html) for more details .
 
 ## Basic Tutorial
 
