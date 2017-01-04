@@ -4,38 +4,38 @@ You can refer to this [link]() for more details .
 
 ## Basic Tutorial
 
-1)Submit a Job
+1)Submit a Job <br />
 $sbatch <jobname>
 
-2)To see all the currently running jobs.
+2)To see all the currently running jobs.<br />
 $squeue
 
-3)See details of a job
+3)See details of a job<br />
 $scontrol show job <job_id>
 
-4)To cancel a job
+4)To cancel a job<br />
 $scancel <job_id>
 
-5)To hold a job
+5)To hold a job<br />
 $scontrol hold <jon_id>
 
-6)To release a job
+6)To release a job<br />
 $scontrol release <job_id>
 
-7)To get the details of all partition and the resources being used
+7)To get the details of all partition and the resources being used <br />
 $sinfo
 
 ##Environment Modules
 
-1)All the modules available 
+1)All the modules available<br /> 
 $module avail
 
-2)Modules already loaded to your account
+2)Modules already loaded to your account<br />
 $module list
 
-3)To load a module 
+3)To load a module <br />
 $module load <name>
 
-4)To unload a module 
+4)To unload a module <br />
 $module unload <name>
  
