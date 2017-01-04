@@ -17,7 +17,7 @@ $scontrol show job (job_id)
 $scancel (job_id)
 
 5)To hold a job<br />
-$scontrol hold <jon_id>
+$scontrol hold (job_id)
 
 6)To release a job<br />
 $scontrol release (job_id)
