@@ -5,22 +5,22 @@ You can refer to this [link]() for more details .
 ## Basic Tutorial
 
 1)Submit a Job <br />
-$sbatch <jobname>
+$sbatch (jobname)
 
 2)To see all the currently running jobs.<br />
 $squeue
 
 3)See details of a job<br />
-$scontrol show job <job_id>
+$scontrol show job (job_id)
 
 4)To cancel a job<br />
-$scancel <job_id>
+$scancel (job_id)
 
 5)To hold a job<br />
 $scontrol hold <jon_id>
 
 6)To release a job<br />
-$scontrol release <job_id>
+$scontrol release (job_id)
 
 7)To get the details of all partition and the resources being used <br />
 $sinfo
@@ -34,8 +34,8 @@ $module avail
 $module list
 
 3)To load a module <br />
-$module load <name>
+$module load (name)
 
 4)To unload a module <br />
-$module unload <name>
+$module unload (name)
  
