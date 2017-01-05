@@ -10,19 +10,22 @@ $sbatch (jobname)
 2)To see all the currently running jobs.<br />
 $squeue
 
-3)See details of a job<br />
+3)TO see all the jobs run by a specific user
+$squeue -u (username)
+
+4)See details of a job<br />
 $scontrol show job (job_id)
 
-4)To cancel a job<br />
+5)To cancel a job<br />
 $scancel (job_id)
 
-5)To hold a job<br />
+6)To hold a job<br />
 $scontrol hold (job_id)
 
-6)To release a job<br />
+7)To release a job<br />
 $scontrol release (job_id)
 
-7)To get the details of all partition and the resources being used <br />
+8)To get the details of all partition and the resources being used <br />
 $sinfo
 
 ##Environment Modules
