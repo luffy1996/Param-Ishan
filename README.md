@@ -10,7 +10,7 @@ $sbatch (jobname)
 2)To see all the currently running jobs.<br />
 $squeue
 
-3)TO see all the jobs run by a specific user
+3)TO see all the jobs run by a specific user.<br />
 $squeue -u (username)
 
 4)See details of a job<br />
